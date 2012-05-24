@@ -1,0 +1,9 @@
+{
+  "name": "drupal/drupalbin-packages",
+  "description": "Composer repository for Drupal projects.",
+  "homepage": "http://packages.drupalbin.com",
+  "license": "MIT",
+  "require": {
+    "composer/satis": "*"
+  }
+}
