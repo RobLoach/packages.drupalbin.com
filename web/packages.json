@@ -5,16 +5,16 @@
                 "name": "drupal/composer-installer",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-05-24 22:09:54",
+                "time": "2012-05-24 22:53:21",
                 "source": {
                     "type": "git",
                     "url": "git://github.com/RobLoach/composer-installer.git",
-                    "reference": "a014e8e0a55df9a6b65385e61203b4ab86db1588"
+                    "reference": "5fc1af4b4026f4aeedeb80295212ca4ada20a0ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/RobLoach/composer-installer/zipball/a014e8e0a55df9a6b65385e61203b4ab86db1588",
-                    "reference": "a014e8e0a55df9a6b65385e61203b4ab86db1588",
+                    "url": "https://github.com/RobLoach/composer-installer/zipball/5fc1af4b4026f4aeedeb80295212ca4ada20a0ec",
+                    "reference": "5fc1af4b4026f4aeedeb80295212ca4ada20a0ec",
                     "shasum": ""
                 },
                 "type": "composer-installer",
@@ -36,6 +36,30 @@
                         "Drupal\\ComposerInstaller": "src/"
                     }
                 }
+            }
+        },
+        "drupal/composer-example": {
+            "dev-master": {
+                "name": "drupal/composer-example",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "time": "2012-05-24 23:12:26",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/RobLoach/composer-example.git",
+                    "reference": "fbb2961c00a640e8f582761726b6c18906f2b5e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/RobLoach/composer-example/zipball/fbb2961c00a640e8f582761726b6c18906f2b5e2",
+                    "reference": "fbb2961c00a640e8f582761726b6c18906f2b5e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/composer-installer": "*"
+                },
+                "type": "drupal-module",
+                "description": "An example of how to use the Drupal Composer Installer."
             }
         }
     }

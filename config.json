@@ -5,6 +5,10 @@
     {
       "url": "git://github.com/RobLoach/composer-installer.git",
       "type": "vcs"
+    },
+    {
+      "url": "git://github.com/RobLoach/composer-example.git",
+      "type": "vcs"
     }
   ]
 }
