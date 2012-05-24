@@ -3,7 +3,7 @@
   "homepage": "http://packages.drupalbin.com",
   "repositories": [
     {
-      "url": "http://git.drupal.org/project/symfony.git",
+      "url": "git://github.com/RobLoach/composer-installer.git",
       "type": "vcs"
     }
   ]
