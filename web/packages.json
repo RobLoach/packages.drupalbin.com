@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "drupal/composer-installer": {
+            "dev-master": {
+                "name": "drupal/composer-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "time": "2012-05-24 22:09:54",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/RobLoach/composer-installer.git",
+                    "reference": "a014e8e0a55df9a6b65385e61203b4ab86db1588"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/RobLoach/composer-installer/zipball/a014e8e0a55df9a6b65385e61203b4ab86db1588",
+                    "reference": "a014e8e0a55df9a6b65385e61203b4ab86db1588",
+                    "shasum": ""
+                },
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Drupal\\ComposerInstaller\\DrupalInstaller"
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Allows Composer to install Drupal modules, themes and Drush components.",
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\ComposerInstaller": "src/"
+                    }
+                }
+            }
+        }
+    }
+}
