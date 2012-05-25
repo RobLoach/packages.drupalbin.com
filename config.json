@@ -9,6 +9,10 @@
     {
       "url": "git://github.com/RobLoach/composer-example.git",
       "type": "vcs"
+    },
+    {
+      "url": "http://git.drupal.org/project/symfony.git",
+      "type": "vcs"
     }
   ]
 }

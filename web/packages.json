@@ -61,6 +61,117 @@
                 "type": "drupal-module",
                 "description": "An example of how to use the Drupal Composer Installer."
             }
+        },
+        "drupal/symfony": {
+            "7.2.0-alpha2": {
+                "name": "drupal/symfony",
+                "version": "7.2.0-alpha2",
+                "version_normalized": "7.2.0.0-alpha2",
+                "time": "2012-05-25 04:16:53",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "7.2.0-alpha2"
+                },
+                "require": {
+                    "drupal/composer-installer": "*",
+                    "symfony/symfony": "2.1.*"
+                },
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Ensures that Symfony is available on your Drupal website."
+            },
+            "7.2.x-dev": {
+                "name": "drupal/symfony",
+                "version": "7.2.x-dev",
+                "version_normalized": "7.2.9999999.9999999-dev",
+                "time": "2012-05-25 04:14:36",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "f6fb48ec728646d877d5ed1ff4d902bf246d9e4d"
+                },
+                "require": {
+                    "drupal/composer-installer": "*",
+                    "symfony/symfony": "2.1.*"
+                },
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Ensures that Symfony is available on your Drupal website."
+            },
+            "dev-7.x-1.x": {
+                "name": "drupal/symfony",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "target-dir": "../../../../modules/symfony",
+                "time": "2012-01-31 00:31:45",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "c6af7e7ebf9c79ca2624ac18137e3c6fa76033ee"
+                },
+                "require": {
+                    "php": ">=5.3.2",
+                    "symfony/symfony": "2.1.*"
+                },
+                "type": "module",
+                "license": [
+                    "GPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Registers the Symfony PHP Framework as a Library to have a status report to ensure its availability.",
+                "homepage": "http://drupal.org",
+                "keywords": [
+                    "drupal"
+                ]
+            },
+            "dev-7.x-2.x": {
+                "name": "drupal/symfony",
+                "version": "dev-7.x-2.x",
+                "version_normalized": "dev-7.x-2.x",
+                "time": "2012-05-25 04:16:53",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "59b953751e374272ea15450abef48cdf6950fe73"
+                },
+                "require": {
+                    "drupal/composer-installer": "*",
+                    "symfony/symfony": "2.1.*"
+                },
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Ensures that Symfony is available on your Drupal website."
+            }
         }
     }
 }
