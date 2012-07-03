@@ -3,15 +3,19 @@
   "homepage": "http://packages.drupalbin.com",
   "repositories": [
     {
-      "url": "git://github.com/RobLoach/composer-installer.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git://github.com/RobLoach/composer-example.git",
-      "type": "vcs"
-    },
-    {
       "url": "http://git.drupal.org/project/symfony.git",
+      "type": "vcs"
+    },
+    {
+      "url": "http://git.drupal.org/project/less.git",
+      "type": "vcs"
+    },
+    {
+      "url": "http://git.drupal.org/project/gelf.git",
+      "type": "vcs"
+    },
+    {
+      "url": "http://git.drupal.org/project/zend.git",
       "type": "vcs"
     }
   ]
