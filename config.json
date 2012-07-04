@@ -1,6 +1,8 @@
 {
   "name": "DrupalBin",
+  "description": "The DrupalBin Composer repository allows easy access to install Drupal packages via Composer.",
   "homepage": "http://packages.drupalbin.com",
+  "license": "MIT",
   "repositories": [
     {
       "url": "http://git.drupal.org/project/symfony.git",
