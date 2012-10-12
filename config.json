@@ -19,6 +19,10 @@
     {
       "url": "http://git.drupal.org/project/zend.git",
       "type": "vcs"
+    },
+    {
+      "url": "http://git.drupal.org/project/less.git",
+      "type": "vcs"
     }
   ]
 }
