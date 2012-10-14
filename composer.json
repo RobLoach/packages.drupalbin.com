@@ -4,7 +4,7 @@
   "homepage": "http://packages.drupalbin.com",
   "license": "MIT",
   "require": {
-    "composer/satis": "*"
+    "glennpratt/drupal-satis": "*"
   },
   "minimum-stability": "dev"
 }
