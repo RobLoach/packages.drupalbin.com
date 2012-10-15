@@ -16,4 +16,4 @@ Use Composer to install dependencies:
 Build
 -----
 
-    php vendor/bin/satis build config.json web
+    vendor/bin/drupal-satis build satis.json web
